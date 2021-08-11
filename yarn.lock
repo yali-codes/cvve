@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+commander@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.nlark.com/commander/download/commander-8.1.0.tgz?cache=0&sync_timestamp=1627359190297&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcommander%2Fdownload%2Fcommander-8.1.0.tgz#db36e3e66edf24ff591d639862c6ab2c52664362"
+  integrity sha1-2zbj5m7fJP9ZHWOYYsarLFJmQ2I=
+
 prettier@^2.3.2:
   version "2.3.2"
   resolved "https://registry.nlark.com/prettier/download/prettier-2.3.2.tgz?cache=0&sync_timestamp=1624696193562&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fprettier%2Fdownload%2Fprettier-2.3.2.tgz#ef280a05ec253712e486233db5c6f23441e7342d"

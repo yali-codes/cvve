@@ -1,17 +1,20 @@
 {
   "name": "cvve",
   "version": "0.0.1",
-  "description": "Create the Electron project based on the next generation development server vite and vue3.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b\u001b[3 ",
+  "description": "Create the Electron project based on vite and vue3.",
   "main": "index.js",
-  "bin": {
-    "cvve": "./bin/create-vue-electron.js"
-  },
-  "scripts": {
-    "test": "cvve"
-  },
+  "author": "devie.huang",
+  "license": "ISC",
+  "homepage": "https://github.com/devie2020/cvve#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devie2020/cvve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devie2020/cvve/issues"
+  },
+  "bin": {
+    "cvve": "./bin/create-vue-electron.js"
   },
   "keywords": [
     "vue3",
@@ -20,12 +23,12 @@
     "dev",
     "build"
   ],
-  "author": "devie.huang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/devie2020/cvve/issues"
+  "scripts": {
+    "dev": "node bin/create-vue-electron"
   },
-  "homepage": "https://github.com/devie2020/cvve#readme",
+  "dependencies": {
+    "commander": "^8.1.0"
+  },
   "devDependencies": {
     "prettier": "^2.3.2"
   }
