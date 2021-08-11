@@ -1,9 +1,17 @@
 #!/usr/bin/env node
-const { program } = require('commander')
+const commander = require('commander')
+
 process.env.NODE_PATH = __dirname + '/../node_modules/'
 
-program.version(require('../package').version)
+const { program } = commander
+
+program.version(require('../package').version, '-v, --version')
 program.usage('<command>')
+
+commander.option('-n, --name[val]', '打印名称', function (val) {
+  console.log(val, '000000')
+  return val
+})
 
 program
   .command('add')
