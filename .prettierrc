@@ -3,9 +3,9 @@
   "useTabs": false,
   "semi": false,
   "singleQuote": true,
-  "TrailingCooma": "all",
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
+  "TrailingCooma": "all",
   "arrowParens": "avoid",
-  "printWidth": 400
+  "printWidth": 200
 }

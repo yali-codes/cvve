@@ -1,10 +1,15 @@
 {
-  "name": "cvve",
+  "name": "@electron/cli",
   "version": "0.0.1",
-  "description": "Create the Electron project based on vite and vue3.",
-  "main": "index.js",
-  "author": "devie.huang",
-  "license": "ISC",
+  "description": "Create the electron project based on vite and vue3.",
+  "author": "devie.huang<120925502@qq.com>",
+  "license": "MIT",
+  "bin": {
+    "cvve": "./bin/cvve.js"
+  },
+  "scripts": {
+    "dev": "node bin/cvve"
+  },
   "homepage": "https://github.com/devie2020/cvve#readme",
   "repository": {
     "type": "git",
@@ -13,23 +18,19 @@
   "bugs": {
     "url": "https://github.com/devie2020/cvve/issues"
   },
-  "bin": {
-    "cvve": "./bin/create-vue-electron.js"
-  },
   "keywords": [
-    "vue3",
-    "vite",
+    "cli",
     "electron",
-    "dev",
-    "build"
+    "electron-cli"
   ],
-  "scripts": {
-    "dev": "node bin/create-vue-electron"
-  },
-  "dependencies": {
-    "commander": "^8.1.0"
-  },
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1",
+    "prettier": "^2.3.2",
+    "validate-npm-package-name": "^3.0.0"
   }
 }
