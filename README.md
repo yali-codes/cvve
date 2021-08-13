@@ -2,7 +2,7 @@
 
 ### Create the electron project based on vite and vue3.
 
-## >Use
+## Use
 
 With NPM:
 
@@ -22,7 +22,7 @@ Then follow the prompts!
 cvve create <projectName>
 ```
 
-## >Dev And Build
+## Dev And Build
 
 At this point the project is created！
 
