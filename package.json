@@ -1,14 +1,11 @@
 {
-  "name": "@electron/cli",
-  "version": "0.1.0",
+  "name": "cvve",
+  "version": "0.1.1",
   "description": "Create the electron project based on vite and vue3.",
   "author": "devie.huang<120925502@qq.com>",
   "license": "MIT",
   "bin": {
     "cvve": "./bin/cvve.js"
-  },
-  "scripts": {
-    "dev": "node bin/cvve"
   },
   "homepage": "https://github.com/devie2020/cvve#readme",
   "repository": {
